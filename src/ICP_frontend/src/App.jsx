@@ -23,7 +23,7 @@ function App() {
         <input id="name" alt="Name" type="text" />
         <button type="submit">Click Me!</button>
       </form>
-      <section id="greeting">{greeting} sukhesh</section>
+      <section id="greeting">{greeting} </section>
     </main>
   );
 }
