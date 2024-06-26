@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Styles for the custom green circle cursor */
+.custom-cursor {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none; /* So it doesn't block other elements */
+    z-index: 10000; /* Ensure it stays on top */
+}
